@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("");
+    background-color: rgb(43, 98, 116);
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+.container{
+    background-color: rgb(0, 123, 107);
+    width: 400px;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    
+}
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px rgb(142, 195, 242);
+}
+.counter-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+
+}
+.counter-container p{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.total-counter{
+    color: rgb(0, 0, 0);
+}
+.total-remaining{
+    color: rgb(151, 63, 0);
+}
